@@ -13,7 +13,11 @@ public class Test6 {
     public static void main(String[] args) {
 
         Calc obj=new Calc();
-        
+        main(20);
+
+    }
+    public static void main(int a) {
+        System.out.println("Overloading Main Method");
         
     }
 }

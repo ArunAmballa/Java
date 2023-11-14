@@ -19,6 +19,6 @@ public class Test14 {
         Animal a=new Animal();
         Dog d=new Dog();
         obj.check(a);
-         obj.check(d);
+        obj.check(d);
     }
 }

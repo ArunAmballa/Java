@@ -17,5 +17,4 @@ public class Test4 {
         System.out.println(obj.add(10,20,30));
         System.out.println(obj.add(4.5,5.5));
     }
-    
 }

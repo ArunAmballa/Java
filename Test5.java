@@ -3,7 +3,7 @@ class Animal{
     private String name;
 
     public void setAge(int age){
-        age=age;
+        this.age=age;
     }
     public int getAge(){
         return age;
