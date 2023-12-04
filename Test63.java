@@ -27,7 +27,7 @@ public class Test63
         System.out.println(m);
         Result.PASS.setMarks(40);
         int m1=Result.PASS.getMarks();
-        System.out.println(m1);
+        System.out.println(m1); 
 
     }
 }

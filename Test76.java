@@ -1,5 +1,7 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.ArrayList;
-import java.sql.*;
+import java.sql.;
 public class Test76 
 {
     public static void main(String[] args) 
@@ -26,6 +28,11 @@ public class Test76
 
         int m=(int) arr.get(0);
         System.out.println(m);
+
+
+        Class.forName("com.sql.cj.jdbc.Driver");
+
+        Connection connect=DriverManager.getConnection(null, null, null)
 
         
     }

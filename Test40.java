@@ -36,7 +36,7 @@ public class Test40
         Music obj=new Music();
         Browsing obj1=new Browsing();
         obj.start();
-        obj1.start();
+        obj1.start(); 
     }
     
 }

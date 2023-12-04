@@ -30,7 +30,8 @@ public class Test43
     Thread t3=new Thread(obj);
 
     t1.setName("Child1");
-    t2.setName("Child2");
+    System.out.println(t1.isAlive());
+    t2.setName("Child2");  
     t3.setName("Child2");
 
     t1.start();

@@ -17,8 +17,6 @@ public class Test51
         System.out.println(list2.peek());
         System.out.println(list2.peekLast());
         System.out.println(list2.peekFirst());
+        System.out.println(list2.pollFirst());
     }
-    
-
-    
 }

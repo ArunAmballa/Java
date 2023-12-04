@@ -4,7 +4,7 @@ import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.CLASS)
 @Target({ElementType.FIELD,ElementType.CONSTRUCTOR,ElementType.TYPE})
-@interface Game
+@interface  Game
 {
 
 }

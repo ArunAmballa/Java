@@ -3,7 +3,7 @@ interface Calc
     int a=10;
     void add();
     void mul();
-    default public void show()
+    default void show()
     {
         System.out.println("Show Method of Calc interface");
     }
@@ -17,7 +17,7 @@ interface CalcPro
     int a=10;
     void add();
     void mul();
-    // default public void show()
+    // default void show()
     // {
     //     System.out.println("Show Method of Calc interface");
     // }
@@ -29,6 +29,7 @@ class A implements Calc,CalcPro
     {
         System.out.println("Adding");
     }
+
     @Override
     public void mul()
     {
@@ -44,6 +45,7 @@ public class Practice4
         obj.mul();
         obj.show();
         Calc.display();
+        System.out.println(Calc.a);
 
     }
 }

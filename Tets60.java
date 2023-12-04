@@ -24,7 +24,7 @@ public class Tets60
 {
     public static void main(String[] args) 
     {
-        Employee obj=new Employee("Arun", 25);
+        Employee obj=new Employee( "Arun", 25);
         Employee obj1=new Employee("Aditya", 26);
 
         ArrayList<Human> list=new ArrayList<>();

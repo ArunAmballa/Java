@@ -14,7 +14,12 @@ public class Test62
         Stream<Integer> stream4=stream3.map(x->x*2);
         stream4.forEach(n->System.out.println(n));
 
-        list.stream().sorted().filter(x->x%2==0).map(x->x*2).forEach(x->System.out.println(x));
+
+        list.stream()
+        .sorted()
+        .filter(x->x%2==0)
+        .map(x->x*2)
+        .forEach(x->System.out.println(x));
 
 
         
